@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "outDir": "functions/lib",
+        "sourceMap": true,
+        "strict": true,
+        "target": "ES2017",
+        "esModuleInterop": true,
+        "baseUrl": "functions/src/",
+        "skipLibCheck": true,
+        // "noEmit": true,
+        "noUnusedParameters": true,
+		 "resolveJsonModule": true,
+     "isolatedModules": true,
+        "moduleResolution": "node",
+        "paths": {
+            "@src/*": ["functions/src/*"]
+        }
+    },
+    "compileOnSave": true,
+    "include": ["functions/src"],
+    "exclude": ["functions/lib", "node_modules"]
+}

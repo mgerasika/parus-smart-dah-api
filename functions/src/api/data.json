@@ -1,0 +1,246 @@
+{
+    "content": [
+        {
+            "counterId": "b406cd52-866f-432e-96d5-d0ceb7bdc1e2",
+            "counterNumber": "36336716",
+            "unit": "м³",
+            "referenceId": "20f781bc-ad7f-4fe4-8887-fe4c8cbfabcf",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 1",
+            "editable": true,
+            "indications": [{ "startIndication": 39, "finishIndication": 39, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "54994d90-a6b0-4e9e-affd-0c3ce5867b53",
+            "counterNumber": "36336712",
+            "unit": "м³",
+            "referenceId": "95eae9fb-174f-405a-905a-42a924dcb7dc",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 2",
+            "editable": true,
+            "indications": [{ "startIndication": 0, "finishIndication": 0, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "bf070df5-4e68-4825-a5da-e1970b2d5593",
+            "counterNumber": "36327538",
+            "unit": "м³",
+            "referenceId": "fd5af1e0-d3ff-48ad-ba36-74abd99fcfbf",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 3",
+            "editable": true,
+            "indications": [{ "startIndication": 72, "finishIndication": 72, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "51410b8f-5df8-4656-9e3b-1af842b19746",
+            "counterNumber": "36344702",
+            "unit": "м³",
+            "referenceId": "5c05707d-3a6a-497c-b5a2-00d1d654ecbb",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 4",
+            "editable": true,
+            "indications": [{ "startIndication": 1, "finishIndication": 1, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "430a3fe8-3904-47cf-b20b-650cf474808d",
+            "counterNumber": "36327554",
+            "unit": "м³",
+            "referenceId": "db181c23-104f-42f7-be5c-a73c3da58525",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 5",
+            "editable": true,
+            "indications": [{ "startIndication": 0, "finishIndication": 0, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "a6a66832-cbcc-46d2-8d42-39a5a2f53f0a",
+            "counterNumber": "36344786",
+            "unit": "м³",
+            "referenceId": "a4078010-48e5-4be5-9196-0f1161df2d37",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 6",
+            "editable": true,
+            "indications": [{ "startIndication": 0, "finishIndication": 0, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "6810b906-a07e-4502-bd6f-68915b48d2d9",
+            "counterNumber": "36312639",
+            "unit": "м³",
+            "referenceId": "dda42157-8aea-4cd1-80e5-225f22128710",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 7",
+            "editable": true,
+            "indications": [{ "startIndication": 22, "finishIndication": 22, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "a8eff8db-f2ab-45c6-9878-c81c0a68da1f",
+            "counterNumber": "36350692",
+            "unit": "м³",
+            "referenceId": "e8142a56-e449-4a55-8a50-e93a7654846c",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 8",
+            "editable": true,
+            "indications": [{ "startIndication": 47, "finishIndication": 47, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "7b692760-ed0f-47ab-84d5-5c0ada7b656c",
+            "counterNumber": "36350645",
+            "unit": "м³",
+            "referenceId": "36cd3669-fcbf-4674-bea7-e56c2befd5ba",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 9",
+            "editable": true,
+            "indications": [{ "startIndication": 7, "finishIndication": 7, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "7688734e-5f7b-4b4f-854d-2b3eca986c82",
+            "counterNumber": "00400033",
+            "unit": "м³",
+            "referenceId": "ff2a2de0-8db3-4c50-ae6a-b775ca2d8d83",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 10",
+            "editable": true,
+            "indications": [{ "startIndication": 70, "finishIndication": 70, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "952fcddf-28a8-446e-96c5-175183d86101",
+            "counterNumber": "00663032",
+            "unit": "м³",
+            "referenceId": "b68d293e-be04-4313-964f-92c3e76cb418",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 11",
+            "editable": true,
+            "indications": [{ "startIndication": 6, "finishIndication": 6, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "3a8d6bdc-e261-4ad2-a014-6ef354728f39",
+            "counterNumber": "00422747",
+            "unit": "м³",
+            "referenceId": "7d6f6aa7-0cfe-4571-996d-beb0eff575ae",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 12",
+            "editable": true,
+            "indications": [{ "startIndication": 149, "finishIndication": 149, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "d63f912a-a2ac-4728-8a91-db06718b1125",
+            "counterNumber": "36350671",
+            "unit": "м³",
+            "referenceId": "5f0364f6-0721-4f88-bdd0-6150d033676f",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 13",
+            "editable": true,
+            "indications": [{ "startIndication": 253, "finishIndication": 253, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "c2e206e7-a9f3-46c3-ab31-6df78a9ab292",
+            "counterNumber": "36350647",
+            "unit": "м³",
+            "referenceId": "ebd99c27-863d-4cb4-a67c-94f5feac7749",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 14",
+            "editable": true,
+            "indications": [{ "startIndication": 40, "finishIndication": 40, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "ab2cc121-9f1a-48cc-bf62-43d6c3967015",
+            "counterNumber": "36350663",
+            "unit": "м³",
+            "referenceId": "bb1fe487-83e1-4386-913f-c5c33862168c",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 15",
+            "editable": true,
+            "indications": [{ "startIndication": 82, "finishIndication": 82, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "940cc21e-1236-49d8-9ca2-db65a1e19ec0",
+            "counterNumber": "36350687",
+            "unit": "м³",
+            "referenceId": "00790c2b-7cb8-4650-8498-0d3c80e505eb",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 16",
+            "editable": true,
+            "indications": [{ "startIndication": 185, "finishIndication": 185, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "7719908e-0578-400c-9c96-83732d372b56",
+            "counterNumber": "36336792",
+            "unit": "м³",
+            "referenceId": "4d11cd95-1b40-411c-97b2-2b389f72a0f3",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 17",
+            "editable": true,
+            "indications": [{ "startIndication": 184, "finishIndication": 184, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "86ccc3a6-7520-4d3b-b15f-9ed8193e2145",
+            "counterNumber": "00651522",
+            "unit": "м³",
+            "referenceId": "d6fd90c5-7645-47dd-b528-b19e49a3338b",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 18",
+            "editable": true,
+            "indications": [{ "startIndication": 142, "finishIndication": 142, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "430b53a9-d345-479f-b29b-2e77a507f128",
+            "counterNumber": "36350602",
+            "unit": "м³",
+            "referenceId": "c5661000-6b91-4de5-a06b-e645e5018aca",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 19",
+            "editable": true,
+            "indications": [{ "startIndication": 168, "finishIndication": 168, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "c8632103-ce17-4aad-bb52-3ca11fa4f081",
+            "counterNumber": "36350634",
+            "unit": "м³",
+            "referenceId": "aaa83554-7b9f-4125-816a-462904a33751",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 20",
+            "editable": true,
+            "indications": [{ "startIndication": 3, "finishIndication": 3, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "bc3fd042-df83-4043-b7af-e5d5ba77728b",
+            "counterNumber": "36350617",
+            "unit": "м³",
+            "referenceId": "22aa4dcb-d1cf-45d3-9445-d28580a6784b",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 21",
+            "editable": true,
+            "indications": [{ "startIndication": 231, "finishIndication": 231, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "bc7f96b9-7bee-4927-9308-78a0f35a1b27",
+            "counterNumber": "36350677",
+            "unit": "м³",
+            "referenceId": "928fb431-8c4a-404b-9302-0be2c5c3bfb0",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 22",
+            "editable": true,
+            "indications": [{ "startIndication": 86, "finishIndication": 86, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "59b7bf76-da91-4172-9c85-f81975f94e71",
+            "counterNumber": "36350618",
+            "unit": "м³",
+            "referenceId": "35a2fea3-1fc3-4363-b86b-2c0baceaf766",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 23",
+            "editable": true,
+            "indications": [{ "startIndication": 131, "finishIndication": 131, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "2aaa6757-929a-4dce-b56e-bbecf2b1322a",
+            "counterNumber": "36350686",
+            "unit": "м³",
+            "referenceId": "0167a08d-1eb0-4ad5-931c-d3da2b99cbce",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 24",
+            "editable": true,
+            "indications": [{ "startIndication": 0, "finishIndication": 0, "zone": 1, "zoneName": "Показник" }]
+        },
+        {
+            "counterId": "85c7f7bd-960e-4ac1-8e14-52a4b5b8254e",
+            "counterNumber": "36350691",
+            "unit": "м³",
+            "referenceId": "f5206c17-0a77-41e8-9470-cc408fd6fa58",
+            "referenceName": "Трускавецька 2, Секція 1, Квартира 25",
+            "editable": true,
+            "indications": [{ "startIndication": 60, "finishIndication": 60, "zone": 1, "zoneName": "Показник" }]
+        }
+    ],
+    "pageable": {
+        "sort": { "sorted": false, "unsorted": true, "empty": true },
+        "pageNumber": 0,
+        "pageSize": 25,
+        "offset": 0,
+        "paged": true,
+        "unpaged": false
+    },
+    "last": false,
+    "totalElements": 350,
+    "totalPages": 14,
+    "first": true,
+    "sort": { "sorted": false, "unsorted": true, "empty": true },
+    "number": 0,
+    "numberOfElements": 25,
+    "size": 25,
+    "empty": false
+}
