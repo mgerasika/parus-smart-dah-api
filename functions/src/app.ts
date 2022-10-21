@@ -2,6 +2,8 @@ import { encrypt, decrypt } from "./utils/crypt.util";
 import { ENV } from "./constants/env.constants";
 import { LINKS } from "./constants/links.constant";
 import { ECounterType, useGetCounterDataAsync } from "./api/get-counter-data.hook";
+import { useGetApartmentsDataAsync } from "./api/get-appartments-data.hook";
+import { useUpdateCounterDataAsync } from "./api/update-counter-data.hook";
 
 const axios = require("axios");
 const express = require("express");
@@ -21,13 +23,13 @@ app.use(express.json());
 app.use(express.urlencoded());
 // app.use(express.multipart());
 
-app.get(LINKS.api.test.toString(), async (req: any, res: any) => {
+app.get(LINKS.api.dah.counters.toString(), async (req: any, res: any) => {
 	const { page, size, resourceType, period } = req.query;
 	if (page === undefined) {
-		res.status(400).send(`missed 'page' query parameter`)
+		res.status(400).send(`missed 'page' query parameter`);
 	}
 	if (size === undefined) {
-		res.status(400).send(`missed 'size' query parameter`)
+		res.status(400).send(`missed 'size' query parameter`);
 	}
 	if (resourceType === undefined) {
 		res.status(400).send(`missed 'resourceType' query parameter. possible values = ${Object.values(ECounterType)}`)
@@ -36,6 +38,42 @@ app.get(LINKS.api.test.toString(), async (req: any, res: any) => {
 		res.status(400).send(`missed 'period' query parameter. example: "2022-10-01" `);
 	}
 	const { data, error } = await useGetCounterDataAsync({ period, resourceType: resourceType as ECounterType },{page: Number(page), size: Number(size)});
+	if (data) {
+		res.send(data);
+	}
+	else {
+		res.status(400).send(error);
+	}
+});
+
+app.put(LINKS.api.dah.updateCounter.toString(), async (req: any, res: any) => {
+	const { period, counterId } = req.query;
+
+	if (counterId === undefined) {
+		res.status(400).send(`missed 'counterId' query parameter`);
+	}
+	if (period === undefined) {
+		res.status(400).send(`missed 'period' query parameter. example: "2022-10-01" `);
+	}
+	const { data, error } = await useUpdateCounterDataAsync({ period, counterId, value: req.body });
+	if (data) {
+		res.send(data);
+	}
+	else {
+		res.status(400).send(error);
+	}
+});
+
+app.get(LINKS.api.dah.apartments.toString(), async (req: any, res: any) => {
+	const { page, size } = req.query;
+	if (page === undefined) {
+		res.status(400).send(`missed 'page' query parameter`);
+	}
+	if (size === undefined) {
+		res.status(400).send(`missed 'size' query parameter`);
+	}
+	
+	const { data, error } = await useGetApartmentsDataAsync({page: Number(page), size: Number(size)});
 	if (data) {
 		res.send(data);
 	}

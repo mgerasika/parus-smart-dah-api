@@ -14,12 +14,7 @@ export interface IGetCounterRequest {
 	period: string,
 }
 
-export interface IGetCounterResponse {
-	accessToken: string;
-	refreshToken: string;
-	expiresIn: number;
-	version: string;
-}
+export type IGetCounterResponse = {};
 
 export const useGetCounterDataAsync = async (body: IGetCounterRequest, { page,size}:{page:number,size:number} ,options?: IMutationOptions): Promise<IMutationResult< IGetCounterResponse>> => {
 	return requestDataAndIfNotAuthorizedMakeRequestAgain(() => useMutationAsync(async () => {
