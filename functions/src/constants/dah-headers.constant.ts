@@ -1,3 +1,4 @@
+import { AxiosRequestHeaders } from "axios";
 import { authService } from "../services/auth.service";
 
 export const DAH_HEADERS = {
@@ -13,7 +14,7 @@ export const DAH_HEADERS = {
     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
 };
 
-export const getDahAuthHeaders = async () => {
+export const getDahAuthHeaders = async (): Promise<AxiosRequestHeaders> => {
 	const auth = await authService.getAsync();
 	return {
 		...DAH_HEADERS,

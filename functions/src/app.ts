@@ -1,7 +1,7 @@
 import { encrypt, decrypt } from "./utils/crypt.util";
 import { ENV } from "./constants/env.constants";
 import { LINKS } from "./constants/links.constant";
-import { useGetCounterDataAsync } from "./api/get-counter-data.hook";
+import { ECounterType, useGetCounterDataAsync } from "./api/get-counter-data.hook";
 
 const axios = require("axios");
 const express = require("express");
@@ -22,14 +22,20 @@ app.use(express.urlencoded());
 // app.use(express.multipart());
 
 app.get(LINKS.api.test.toString(), async (req: any, res: any) => {
-	const { page, size } = req.query;
+	const { page, size, resourceType, period } = req.query;
 	if (page === undefined) {
-		res.status(400).send(`missed 'page' query paramenter`)
+		res.status(400).send(`missed 'page' query parameter`)
 	}
 	if (size === undefined) {
-		res.status(400).send(`missed 'size' query paramenter`)
+		res.status(400).send(`missed 'size' query parameter`)
 	}
-	const { data, error } = await useGetCounterDataAsync({ period: '2022-10-01', resourceType: 'COLD_WATER' },{page: Number(page), size: Number(size)});
+	if (resourceType === undefined) {
+		res.status(400).send(`missed 'resourceType' query parameter. possible values = ${Object.values(ECounterType)}`)
+	}
+	if (period === undefined) {
+		res.status(400).send(`missed 'period' query parameter. example: "2022-10-01" `);
+	}
+	const { data, error } = await useGetCounterDataAsync({ period, resourceType: resourceType as ECounterType },{page: Number(page), size: Number(size)});
 	if (data) {
 		res.send(data);
 	}

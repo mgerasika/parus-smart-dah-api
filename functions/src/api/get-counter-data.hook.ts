@@ -3,9 +3,15 @@ import { getDahAuthHeaders } from "../constants/dah-headers.constant";
 import { requestDataAndIfNotAuthorizedMakeRequestAgain } from "../utils/request-data-and-if-not-autorized-request-again.util";
 import { IMutationOptions, IMutationResult, useMutationAsync } from "../utils/use-mutation.util";
 
+export enum ECounterType{
+	COLD_WATER = 'COLD_WATER',
+	HOT_WATER = 'HOT_WATER',
+	ELECTRICITY = 'ELECTRICITY',
+	HEATING = 'HEATING'
+}
 export interface IGetCounterRequest {
-	resourceType: "COLD_WATER",
-	period: "2022-10-01",
+	resourceType: ECounterType,
+	period: string,
 }
 
 export interface IGetCounterResponse {
